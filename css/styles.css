@@ -1,0 +1,7 @@
+.jumbotron{
+    background-image: url(../images/fruit_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
