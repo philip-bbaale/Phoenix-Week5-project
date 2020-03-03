@@ -8,3 +8,10 @@
 .buttons{
     text-align: center;
 }
+.disease_cards{
+    justify-content: center;
+}
+.card{
+    align-items: center;
+    margin: 20px;
+}
