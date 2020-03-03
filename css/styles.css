@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    text-shadow: 5px 5px black;
 }
 .diet_background{
     background-image: url(../images/diet/jumbobg.jpeg);
