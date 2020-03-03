@@ -24,44 +24,51 @@ $(document).ready(function(){
 var normalDiet = [
     {
         "Day":"Monday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Boiled eggs","Bacon","Apple","Toast"],
+        "Lunch":["Ham","cheese","Sandwitch with avocado"],
+        "Snack":["Greek yogurt"],
+        "Dinner":["Cold Lentil salad","Aspargus"]
     },
     {
         "Day":"Tuesday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Berry smoothie","Chia seeds"],
+        "Lunch":["Kale & Tuna salad","Avocado"],
+        "Snack":["Berries"],
+        "Dinner":["Grilled chicken salad"]
     },
     {
         "Day":"Whenesday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Broccoli","Egg toast"],
+        "Lunch":["Shrimp salad","Sweet potatoes"],
+        "Snacks":["Nuts"],
+        "Dinner":["Grilled Chicken"]
     },
     {
         "Day":"Thursday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Avocado banana smoothie"],
+        "Lunch":["Pesto shrimp pasta","Pork"],
+        "Snacks":["Olive","Cheese"],
+        "Dinner":["Flank Steak","Red Wine"]
     },
     {
         "Day":"Friday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Cinamon oat-meal","Banana"],
+        "Lunch":["Turkey wrap"],
+        "Snack":["Beries","Grape fruit"],
+        "Dinner":["Pecan","Pork chops"]
     },
     {
         "Day":"Saturday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Whole Wheat Pita","Chia pudding"],
+        "Lunch":["Brown Rice","Salmon fillet"],
+        "Snack":["Apple"],
+        "Dinner":["Green beans","Caesar salad"]
     },
     {
         "Day":"Sunday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Dinner":[]
+        "BreakFast":["Toast","Protein shake"],
+        "Lunch":["Monk fish","Brown rice","Matooke","Mixed green salad with cucumber"],
+        "Snack":["Candy"],
+        "Dinner":["Grilled Turkey breast","Caesar salad","Green beams"]
     },
 ]
