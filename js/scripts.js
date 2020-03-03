@@ -1,0 +1,23 @@
+$(document).ready(function(){
+
+    $(".food_group1").click(function(){
+        $(".food_group_img1").toggle();
+        $(".food_group_list1").toggle();
+    })
+    $(".food_group2").click(function(){
+        $(".food_group_img2").toggle();
+        $(".food_group_list2").toggle();
+    })
+    $(".food_group3").click(function(){
+        $(".food_group_img3").toggle();
+        $(".food_group_list3").toggle();
+    })
+    $(".food_group4").click(function(){
+        $(".food_group_img4").toggle();
+        $(".food_group_list4").toggle();
+    })
+    $(".food_group5").click(function(){
+        $(".food_group_img5").toggle();
+        $(".food_group_list5").toggle();
+    })
+});
