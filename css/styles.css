@@ -15,3 +15,11 @@
     align-items: center;
     margin: 20px;
 }
+.food_group{
+    padding: 10px;
+    justify-content: center;
+}
+.food_group_img{
+    height: 100px;
+    width: 150px;
+}
