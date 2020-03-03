@@ -10,6 +10,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: black;
 }
 .disease_cards{
     justify-content: center;
