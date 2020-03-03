@@ -11,15 +11,20 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.buttons{
-    text-align: center;
-}
 .disease_cards{
     justify-content: center;
 }
 .card{
     align-items: center;
     margin: 20px;
+}
+.diet_defination1{
+    text-align: justify;
+    padding: 50px;
+}
+.diet_defination2{
+    text-align: justify;
+    padding: 50px;
 }
 .food_group{
     padding: 10px;
