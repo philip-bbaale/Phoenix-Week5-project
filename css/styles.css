@@ -76,6 +76,10 @@
     background-image: url(../images/fruit_background.jpg);
     background-position: center;
     background-size: cover;
+}
+.anemia_heading {
+    background-image: url(../images/nemia.jpg);
+    height: 250px;
     background-repeat: no-repeat;
     color: white;
     text-shadow: 5px 5px black;
@@ -112,4 +116,16 @@
 }
 .food_group_list1,.food_group_list2,.food_group_list3,.food_group_list4,.food_group_list5{
     display: none;
+}
+body {
+    background-color: wheat;
+    color: gray;
+}
+.iron,.sickle,.hemo ,.apla, .perni {
+    display:none;
+
+}
+li {
+ cursor: pointer;
+
 }

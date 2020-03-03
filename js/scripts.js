@@ -114,3 +114,20 @@ var normalDiet = [
         "Dinner":["Grilled Turkey breast","Caesar salad","Green beams"]
     },
 ]
+$(document).ready(function(){
+   $(".iron1").click(function(){
+    $(".iron").toggle();
+   });
+   $(".sickle1").click(function(){
+    $(".sickle").toggle();
+   });
+   $(".hemo1").click(function(){
+    $(".hemo").toggle();
+   });
+   $(".apla1").click(function(){
+    $(".apla").toggle();
+   });
+   $(".perni1").click(function(){
+    $(".perni").toggle();
+   });
+});
