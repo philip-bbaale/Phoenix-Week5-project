@@ -21,3 +21,47 @@ $(document).ready(function(){
         $(".food_group_list5").toggle();
     })
 });
+var normalDiet = [
+    {
+        "Day":"Monday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+    {
+        "Day":"Tuesday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+    {
+        "Day":"Whenesday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+    {
+        "Day":"Thursday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+    {
+        "Day":"Friday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+    {
+        "Day":"Saturday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+    {
+        "Day":"Sunday",
+        "BreakFast":[],
+        "Lunch":[],
+        "Dinner":[]
+    },
+]
