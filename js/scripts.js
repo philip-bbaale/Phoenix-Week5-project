@@ -125,4 +125,13 @@ $(document).ready(function(){
     $(".image3").hover(function(){
         $(".text3").toggle();
     });
+    $(".image4").hover(function(){
+        $(".text4").toggle();
+    });
+    $(".image5").hover(function(){
+        $(".text5").toggle();
+    });
+    $(".image6").hover(function(){
+        $(".text6").toggle();
+    });
 });
