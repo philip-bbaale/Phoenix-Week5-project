@@ -62,6 +62,12 @@ $(document).ready(function(){
         $(".food_group_img5").toggle();
         $(".food_group_list5").toggle();
     })
+    $("form").submit(function(){
+        var name = $("#name").val();
+        var email = $("#email").val();
+        alert('Thank you for reaching out. '+name);
+        $("form").trigger('reset');
+    });
 });
 var normalDiet = [
     {
