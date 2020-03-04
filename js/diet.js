@@ -27,7 +27,16 @@ $(document).ready(function(){
         $("form").trigger('reset');
     });
 });
+
+var Day = new Date();
 var normalDiet = [
+    {
+        "Day":"Sunday",
+        "BreakFast":["Toast","Protein shake"],
+        "Lunch":["Monk fish","Brown rice","Matooke","Mixed green salad with cucumber"],
+        "Snack":["Candy"],
+        "Dinner":["Grilled Turkey breast","Caesar salad","Green beams"]
+    },
     {
         "Day":"Monday",
         "BreakFast":["Boiled eggs","Bacon","Apple","Toast"],
@@ -70,11 +79,5 @@ var normalDiet = [
         "Snack":["Apple"],
         "Dinner":["Green beans","Caesar salad"]
     },
-    {
-        "Day":"Sunday",
-        "BreakFast":["Toast","Protein shake"],
-        "Lunch":["Monk fish","Brown rice","Matooke","Mixed green salad with cucumber"],
-        "Snack":["Candy"],
-        "Dinner":["Grilled Turkey breast","Caesar salad","Green beams"]
-    },
+    
 ]
