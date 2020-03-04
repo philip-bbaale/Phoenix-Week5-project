@@ -76,13 +76,13 @@
     background-image: url(../images/fruit_background.jpg);
     background-position: center;
     background-size: cover;
-}
-.anemia_heading {
-    background-image: url(../images/nemia.jpg);
-    height: 250px;
-    background-repeat: no-repeat;
     color: white;
     text-shadow: 5px 5px black;
+}
+.anemia_heading {
+    background-image: url(../images/anaemia/nemia.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
 }
 .diet_background{
     background-image: url(../images/diet/jumbobg.jpeg);
@@ -117,15 +117,20 @@
 .food_group_list1,.food_group_list2,.food_group_list3,.food_group_list4,.food_group_list5{
     display: none;
 }
-body {
-    background-color:hotpink;
-    color: gray;
-}
+
 .iron,.sickle,.hemo ,.apla, .perni {
     display:none;
 
 }
-li {
- cursor: pointer;
+.welcome {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+    background-image: url(../images/anaemia/backs4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    body {
+        background-color: gray;
+    }
 
-}
