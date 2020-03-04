@@ -1,10 +1,115 @@
-.jumbotron{
+.elderly_Heading {
+    margin-top: 4%;
+    padding: 0%;
+}
+.inner {
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.elderly_head_txt {
+    font-weight: bolder;
+    text-align: center;
+    color: blue;
+}
+/*for the elderly2.html*/
+#elderly_head_2 {
+    margin: 20px;
+    padding: 0;
+    font-family: arial;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    color: green;
+    text-shadow: 0 0 1px rgba(0,0,0,.2);
+
+}
+#elderly_head_2:before{
+    content: 'HEALTHY AGING'; 
+    text-transform: uppercase;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 25%;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,25,0,.2);
+    overflow: hidden;
+    animation: animate 6s infinite linear;
+    
+}
+@keyframes animate{
+    0%{
+        height: 25%;
+    }
+    25%{
+        height: 50%;
+    }
+    50%{
+        height: 30%;
+    }
+    75%{
+        height: 70%;
+    }
+    100%{
+        height: 25%;
+    }
+  
+}
+#carbon {
+    display: none;
+}
+#vitamins{
+    display: none;
+}
+#proteins {
+    display: none;
+}
+
+
+.home_background{
     background-image: url(../images/fruit_background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    text-shadow: 5px 5px black;
 }
-.buttons{
-    text-align: center;
+.diet_background{
+    background-image: url(../images/diet/jumbobg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.disease_cards{
+    justify-content: center;
+}
+.card{
+    align-items: center;
+    margin: 20px;
+}
+.diet_defination1{
+    text-align: justify;
+    padding: 50px;
+}
+.diet_defination2{
+    text-align: justify;
+    padding: 50px;
+}
+.food_group{
+    padding: 10px;
+    justify-content: center;
+}
+.food_group_img1,.food_group_img2,.food_group_img3,.food_group_img4,.food_group_img5{
+    height: 100px;
+    width: 150px;
+}
+.food_group_list1,.food_group_list2,.food_group_list3,.food_group_list4,.food_group_list5{
+    display: none;
 }
