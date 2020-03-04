@@ -118,19 +118,4 @@
     display: none;
 }
 
-.iron,.sickle,.hemo ,.apla, .perni {
-    display:none;
-
-}
-.welcome {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-bottom: 20px;
-    background-image: url(../images/anaemia/backs4.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    body {
-        background-color: gray;
-    }
 

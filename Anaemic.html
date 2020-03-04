@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutri Track.</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/anemia.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/anemia.js"></script>
 </head>
-<body>
+<body style="background-color: grey;">
     <div class="container-fluid">
 
         <div class="container">
@@ -42,32 +43,88 @@
            
             <p>Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues.</p> 
                 <h2>Different types of Anemia</h2>
-                <small id="emailHelp" class="form-text text-muted"><b>click on disease to see info.</b></small><br>
-                <div class="row" id="details">
-                    <div class="col-md-6">
-                        <ul>
-                            <li class="iron1"><b>Iron-deficiency anemia.</b> </li>
-                            <p class="iron"> This  is anemia caused by a lack of iron</p>
-                           
-                            <li class="sickle1"><b>Sickle cell anemia.</b></li>
-                            <p class="sickle">this is  an inherited red blood cell disorder in which there aren't enough healthy red blood cells to carry oxygen throughout your body</p>
-        
-                            <li class="hemo1"><b>Hemo- lytic anemia</b></li>
-                            <p class="hemo">This is  a form of anemia due to hemolysis, the abnormal breakdown of red blood cells </p>
-        
-                            <li class="apla1"><b>Aplastic anemia</b></li>
-                            <p class="apla"> This is an autoimmune disease in which the body fails to produce blood cells in sufficient numbers.</p>
-        
-                            <li class="perni1"><b>Pernicious anemia</b></li>
-                            <p class="perni">  This is a disease where large, immature, nucleated cells (megaloblasts, which are forerunners of red blood cells) circulate in the blood, and do not function as blood cells; it is a disease caused by impaired uptake of vitamin B-12 due to the lack of intrinsic factor  in the gastric mucosa.</p>
-        
-                        </ul>
-        
+                <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anaemia/hems.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      
+                      <p class="card-text">This is  a form of anemia due to hemolysis, the abnormal breakdown of red blood cells</p>
+                      
                     </div>
-                    
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anaemia/iron.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                      <p class="card-text">This  is anemia caused by a lack of iron. This  condition in which blood lacks adequate healthy red blood cells. </p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anaemia/perni.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">This is a disease where large, immature, nucleated cells  circulate in the blood, and do not function as blood cells; it is a disease caused by impaired uptake of vitamin B-12 due to the lack of intrinsic factor  in the gastric mucosa.</p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anaemia/ops.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Aplastic anemia</h5>
+                      <p class="card-text"> This is an autoimmune disease in which the body fails to produce blood cells in sufficient numbers.</p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anaemia/sick.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sickle cell anemia</h5>
+                      <p class="card-text">this is  an inherited red blood cell disorder in which there aren't enough healthy red blood cells to carry oxygen throughout your body</p>
+                      
+                    </div>
+                  </div>
+              </div>
                 </div>
-                <div class="photo"></div>
-                
+   
+                <div class="photo text-center">
+                    <P><b> let us see what  our body requires:</b></P>
+                    <img src="images/anaemia/food-for-anaemia.jpg" alt="">
+                </div>
+                <button type="button"> See your meal</button>
+
+               <div class="email">
+                    
+                        <h6 class="text-center">Get your Time Table Emailed to you</h6>
+                        <form>
+                            <div class="row ">
+                                <div class="col-md-6">
+                            
+                                    <input class="form-control typo" type="text" placeholder="type in your name" name="FNAME" id="name">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <input class="form-control typo" type="text" placeholder="Type in your email" name="EMAIL" id="email">
+                                  </div>
+                                 <div class="col-md-12">
+                                    <button type="submit" >Send</button> 
+                                 </div>
+                                    
+                                     
+                                      
+                            </div>
+                      
+                            </div>
+                            </form>
+                    </div>
+                </div>
             
         </div>
     </div>
