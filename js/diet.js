@@ -91,7 +91,8 @@ function showMeals(){
         var node = document.createElement("LI")
         var tnode = document.createTextNode(fruit + ": " + count+".")
         node.appendChild(tnode)
-        document.getElementById("meals_show").append (node)
+        document.getElementById("meals_show").append(node);
+        normalDiet=0;
     }
     /*entries.map(function(entry){
         console.log(entry)
