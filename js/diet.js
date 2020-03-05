@@ -43,7 +43,7 @@ var normalDiet = [
         "BreakFast":["Boiled eggs","Bacon","Apple","Toast"],
         "Lunch":["Ham","cheese","Sandwitch with avocado"],
         "Snack":["Greek yogurt"],
-        "Dinner":["Cold Lentil salad","Aspargus"]
+        "Dinner":["Cold Lentil salad","Asparagus"]
     },
     {
         "DayOfWeek":"Tuesday",
@@ -88,8 +88,14 @@ function showMeals(){
     const entries = Object.entries(DayOfWeeks)
     console.log(entries)
     for([fruit, count] of entries) {
-        console.log(`${fruit}: ${count}.`)
-        document.getElementById("meals_show").append( `${fruit}: ${count}.`)
+        var node = document.createElement("LI")
+        var tnode = document.createTextNode(fruit + ": " + count+".")
+        node.appendChild(tnode)
+        document.getElementById("meals_show").append (node)
     }
+    /*entries.map(function(entry){
+        console.log(entry)
+        document.getElementById("meals_show").append(`${entry}`)
+    })*/
     
 }

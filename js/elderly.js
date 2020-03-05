@@ -42,7 +42,7 @@ function setOldImage() {
 }
 
 var Day = new Date();
-var normalDiet = [
+var elderlyDiet = [
     {
         "DayOfWeek":"Sunday",
         "BreakFast":["Toast","Protein shake"],
@@ -95,13 +95,15 @@ var normalDiet = [
     
 ]
 function showMeals(){
-    var  DayOfWeeks = normalDiet[Day.getDay()];
-    //document.getElementById("meals_show").innerHTML = normalDiet[Day.getDay()];
+    var  DayOfWeeks = elderlyDiet[Day.getDay()];
     const entries = Object.entries(DayOfWeeks)
     console.log(entries)
     for([fruit, count] of entries) {
-        console.log(`${fruit}: ${count}.`)
-        document.getElementById("meals_show").append( `${fruit}: ${count}.`)
+        var node = document.createElement("LI")
+        var tnode = document.createTextNode(fruit + ": " + count+".")
+        node.appendChild(tnode)
+        document.getElementById("meals_show").append (node)
+        elderlyDiet=0;
     }
     
 }
