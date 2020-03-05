@@ -1,0 +1,42 @@
+.welcome {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+    background-image: url(../images/anaemia/backs4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.photo {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+}
+.email {
+    background-image: url(../images/anaemia/oranges.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+}
+.card {
+    background-color: pink;
+}
+.send {
+    padding: 10px;
+}
+.what_to_note{
+    display: none;
+}
+.note {
+    cursor: pointer;
+    color: red;
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+}
+.note:hover{
+    text-decoration: underline;
+}
+.send_btn{
+    padding: 20px;
+}
