@@ -87,11 +87,9 @@ function showMeals(){
     //document.getElementById("meals_show").innerHTML = normalDiet[Day.getDay()];
     const entries = Object.entries(DayOfWeeks)
     console.log(entries)
-    for (var [fruit, count] of entries) {
+    for([fruit, count] of entries) {
         console.log(`${fruit}: ${count}.`)
         document.getElementById("meals_show").innerHTML = ( `${fruit}: ${count}.`)
-      }
-      
-      
+    }
     
 }
