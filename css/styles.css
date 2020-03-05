@@ -88,3 +88,14 @@
     align-items: center;
     margin: 20px;
 }
+.contact_us{
+    background-color: gray  ;
+    text-align: center;
+    padding: 20px;
+}
+.contanct_name{
+    margin: 10px;
+    border: 2px solid ;
+    padding: 5px;
+    border-radius: 10px;
+}
