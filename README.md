@@ -9,11 +9,11 @@ Week 5: Team work-Final Project.
 # Project description:
 
 # Author(s) information: 
-> Abdifatah M Aden  -Elderly page
-> Albina Muturi -Pregnancy page
-> Laureen Makenzie  -Aneamia page
-> Patricia Kuria  -Diabetic page
-> Namugera Bbaale Philip(scrum master)  -Home & Diet page
+>* Abdifatah M Aden  -Elderly page
+>* Albina Muturi -Pregnancy page
+>* Laureen Makenzie  -Aneamia page
+>* Patricia Kuria  -Diabetic page
+>* Namugera Bbaale Philip(scrum master)  -Home & Diet page
 
 # Technologies used: 
 * html, 
