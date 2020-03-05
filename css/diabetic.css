@@ -1,0 +1,105 @@
+
+body{
+    background-color: teal ;
+    
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.intro{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    background-image: url(../images/diabetic/lastbg.jpg);
+    background-repeat: no-repeat;
+    color: black;
+    height: 650px;
+    background-size: cover;
+}
+#description{
+    font-family: 'Marck Script', cursive;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19{
+    display: none;
+    opacity: 1;
+    position: absolute;
+    height: 15px;
+    width: 0px;
+    padding-top: 100px;
+    color: black;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+#required{
+    background-image: url(../images/diabetic/bgg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+form{
+    background-image: url(../images/diabetic/email.jpeg) ;
+    height: 250px;
+    color: white;
+    background-repeat: repeat-x;
+}  
+p{
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+#title{
+    font-family: 'Bangers', cursive;
+}
+li{
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+#header{
+    font-size: xx-large;
+}
