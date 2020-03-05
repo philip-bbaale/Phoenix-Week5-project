@@ -1,0 +1,40 @@
+
+.diet_background{
+    background-image: url(../images/diet/jumbobg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.diet_defination1{
+    text-align: justify;
+    padding: 50px;
+}
+.diet_defination2{
+    text-align: justify;
+    padding: 50px;
+}
+.food_group{
+    padding: 10px;
+    justify-content: center;
+}
+.food_group_img1,.food_group_img2,.food_group_img3,.food_group_img4,.food_group_img5{
+    height: 100px;
+    width: 150px;
+}
+.food_group_list1,.food_group_list2,.food_group_list3,.food_group_list4,.food_group_list5{
+    display: none;
+}
+.diet_day_meals{
+    padding: 20px;
+    height: auto;
+}
+.diet_footer{
+    margin-top: 20px;
+    background-color: gray;
+    padding: 20px;
+    justify-content: center;
+    border: 0px solid gray;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
