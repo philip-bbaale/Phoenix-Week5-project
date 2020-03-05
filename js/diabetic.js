@@ -57,3 +57,67 @@ $(document).ready(function(){
         $(".text19").toggle();
     }); 
 });
+var Day = new Date();
+var normalDiet = [
+    {
+        "DayOfWeek":"Sunday",
+        "BreakFast":["Almonds","Fruits"],
+        "Lunch":["Veggie stir fry","Brown rice","banana"],
+        "Snack":["Greek Yogurt with berries"],
+        "Dinner":["Lentil and roasted vegetable salad"]
+    },
+    {
+        "DayOfWeek":"Monday",
+        "BreakFast":["Cauliflower oatmeal"],
+        "Lunch":["Boiled chicken","Whole grain chapati","watermelon"],
+        "Snack":["Hard boiled eggs"],
+        "Dinner":["Chicken sausage and peppers","brown rice","greens"]
+    },
+    {
+        "DayOfWeek":"Tuesday",
+        "BreakFast":["Pumpkin Pancakes"],
+        "Lunch":["Lettuce salad","Smoked Salmon"],
+        "Snack":["Peanut butter and celery sticks"],
+        "Dinner":["Steamed butternut squash","thyme"]
+    },
+    {
+        "DayOfWeek":"Wednesday",
+        "BreakFast":["Avocado toast"],
+        "Lunch":["lentil soup","whole grain bread","chilli"],
+        "Snacks":["Nuts"],
+        "Dinner":["Roasted brussel sprouts","Pork chops"]
+    },
+    {
+        "DayOfWeek":"Thursday",
+        "BreakFast":["Mango-spinach smoothie"],
+        "Lunch":["Spinach rolls"],
+        "Snacks":["Chia seed pudding"],
+        "Dinner":["Stuffed chicken breast"]
+    },
+    {
+        "DayOfWeek":"Friday",
+        "BreakFast":["veggie omlette"],
+        "Lunch":["Lamb chops","Whole grain pasta","Avocado"],
+        "Snack":["Roasted Chickpeas"],
+        "Dinner":["Matoke","Butter beans","cabbage"]
+    },
+    {
+        "DayOfWeek":"Saturday",
+        "BreakFast":["veggie BLT sandwich"],
+        "Lunch":[""],
+        "Snack":["Turkey pie"],
+        "Dinner":["fish","mashed potatoes","watermelon"]
+    },
+    
+]
+function showMeals(){
+    var  DayOfWeeks = normalDiet[Day.getDay()];
+    //document.getElementById("meals_show").innerHTML = normalDiet[Day.getDay()];
+    const entries = Object.entries(DayOfWeeks)
+    console.log(entries)
+    for([fruit, count] of entries) {
+        console.log(`${fruit}: ${count}.`)
+        document.getElementById("meals_show").innerHTML = ( `${fruit}: ${count}.`)
+    }
+    
+}
