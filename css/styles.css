@@ -76,15 +76,24 @@
     background-image: url(../images/fruit_background.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     color: white;
     text-shadow: 5px 5px black;
 }
-
 .disease_cards{
     justify-content: center;
 }
 .card{
     align-items: center;
     margin: 20px;
+}
+.contact_us{
+    background-color: gray  ;
+    text-align: center;
+    padding: 20px;
+}
+.contanct_name{
+    margin: 10px;
+    border: 2px solid ;
+    padding: 5px;
+    border-radius: 10px;
 }

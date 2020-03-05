@@ -5,23 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutri Track.</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/anemia.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kalam&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/anemia.js"></script>
 </head>
-<body>
+<body style="background-color: grey;">
     <div class="container-fluid">
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12 jumbotron">
-                    <h1 class="display-2">Anaemic.</h1>
+                <div class="col-md-4">
+                    <a href="#Home">Home</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#details">Details</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#timetable">Time table</a>
                 </div>
             </div>
         </div>
+            <div id="Home" class="text-center welcome">
+                <h1>WELCOME HERE </h1>
+                <p>LET'S FIND OUT MORE ABOUT YOUR DIET PLAN </p> 
+                <p>ENJOY!!</p>
+                <div class="row">
+                    <div class="col-md-12 te">
+                        <img src="images/anaemia/icon.jpg" alt="an icon " height="50" width="50">
+                    </div>
+                </div>
+                
+            </div>
         
-        
-        <div class="row">
+       <div id="details">
+        <h1>What is Anemia?</h1>
+           
+        <p>Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues.</p> 
+            <h2>Different types of Anemia</h2>
+            <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/anaemia/hems.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  
+                  <p class="card-text">This is  a form of anemia due to hemolysis, the abnormal breakdown of red blood cells</p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/anaemia/iron.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                  <p class="card-text">This  is anemia caused by a lack of iron. This  condition in which blood lacks adequate healthy red blood cells. </p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/anaemia/perni.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This is a disease where large, immature, nucleated cells  circulate in the blood, and do not function as blood cells; it is a disease caused by impaired uptake of vitamin B-12 due to the lack of intrinsic factor  in the gastric mucosa.</p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/anaemia/ops.webp" class="card-img-top" alt="...">
+                <div class="card-body">               
+                  <p class="card-text"> This is an autoimmune disease in which the body fails to produce blood cells in sufficient numbers.</p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/anaemia/sick.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sickle cell anemia</h5>
+                  <p class="card-text">this is  an inherited red blood cell disorder in which there aren't enough healthy red blood cells to carry oxygen throughout your body</p>
+                  
+                </div>
+              </div>
+          </div>
+            </div>
+
+            <div class="photo text-center">
+                <P><b> let us see what  our body requires:</b></P>
+                <img src="images/anaemia/food-for-anaemia.jpg" alt="">
+            </div>
+            
+
+       </div>
+       <h8 class="note"><b>NOTE!!!!!!!!</b></h8>
+       <p class="what_to_note">Don’t eat iron-rich foods with foods or beverages that block iron absorption. These include coffee or tea, eggs, foods high in oxalates, and foods high in calcium. foods rich in gluten, such as pasta and other products made with wheat, barley, rye, or oats</p>
+       <div id="timetable">
+        <button type="button" id="see"> See your meal</button>
+    </div>
+               <div class= " email text-center  container-fluid" id>
+                    
+                        <h6>Get your Time Table Emailed to you</h6>
+                        <form id="form" action="https://gmail.us19.list-manage.com/subscribe/post?u=4d7300e3a793ff52246bf59bf&amp;id=94543cd6d7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="row ">
+                                <div class="col-md-6">
+                            
+                                    <input class="form-control typo" type="text" placeholder="type in your name" name="FNAME" id="name" required>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <input class="form-control typo" type="text" placeholder="Type in your email" name="EMAIL" id="email" required>
+                                  </div>
+                                  
+                                  <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                  </div>
+                                 <div class="col-md-12  send_btn">
+                                  <button type="submit" class="btn btn-dark ">Send.</button>
+
+                                 </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             
         </div>
     </div>
