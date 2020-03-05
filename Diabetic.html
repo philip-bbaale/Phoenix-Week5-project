@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutri Track.</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/diabetic.css">
     <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/diabetic.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
+        <div class="container text-center">
         <div class="intro">
             <div class="topnav">
-                <a class="active" href="#home">Home</a>
-                <a href="#type1">Type 1</a>
-                <a href="#type2">Type 2</a>
-                <a href="#pred">prediabtes</a>
+                <a class="active" href="#home"><i class="fas fa-home"></i>Home</a>
+                <a href="#type"><i class="fas fa-file-medical"></i>Types</a>
+                <a href="#required"><i class="fas fa-utensils"></i>DO'S & dont's</a>
+                <a href="#diet">Diet</a>
             </div>
-            <div id="header">
-                <h1>Maybe a liitle too sweet??...</h1>
+            <div id="home">
+                <div id="header">
+                    <h1>Maybe a liitle too sweet??...</h1>
+                </div>
             </div>
-            <br><div class="description">
+        </div>
+        <div id="des">
+            <div class="description">
+                <div id="title">
+                    <h2>WHAT IS THIS SO CALLED "NIGHTMARE OF SWEETNESS?"</h2>
+                </div>
                 <p>Diabetes is a medical condition where by the blood sugar , also known as blood glucose, is too high.</p>
                 <p>There are different kinds of diabetes i.e; </p>
                     <ul>
@@ -31,88 +41,143 @@
                         <li>Diabetes type 2</li>
                         <li>Prediabetes</li>
                     </ul>
-            </div>
-        </div>
-        <div id="type1">
-            <h2>Diabetes type 1</h2>
-            <p>Type 1 diabetes is an autoimmune disease where by the immune system attacks and destroys cells in the pancreas, where insulin is made.</p>
-            <p>This later results in a persons blood sugar hitting the roof.</p>
-            <p>To avoid high blood sugar one should avoid the following;</p>
+                </div> 
+
+            <div id="type">
+                 
+                    <h3>Diabetes type 1</h3> <br>
+                        <p>Type 1 diabetes is an autoimmune disease where by the immune system attacks and destroys cells in the pancreas, where insulin is made.</p>
+                        <p>This later results in a persons blood sugar hitting the roof.</p>
+                        <p>To avoid high blood sugar one should avoid the following;</p>
+                        <br>
+                    <h3>Diabetes type 2</h3>     
+                        <p>Type 2 diabetes is a lifelong disease that keeps your body from using insulin the way it should.</p>
+                        <p>People with type 2 diabetes are said to have insulin resistance.</p>
+                        <p>The following are the top 3 foods which should be avoided by people with this condition;</p> 
+                        <br>  
+                    <h3>Prediabetes</h3>
+                        <p> The telltale sign is a blood test that show your blood sugar (blood glucose) level is higher than normal but not yet high enough to be considered diabetes.</p>
+            </div>        
+            <div id="required">
+                <h2>Recommended foods</h2>
                 <div class="row">
-                    <div class="col-m-4">
+                    <div class="column">
                         <div class="hover">
-                            <div class="caurousel-caption text1"><b>Processed sugar</b></div>
-                                <img src="images/candy.jpeg" class="image1">
+                            <div class="caurousel-caption text1"><b>Dark green leafy veggies</b></div>
+                                <img src="images/diabetic/dgl.jpg" class="image1" style="width:250px; height: 200px;">
+                        </div>       
+                        <div class="hover">
+                            <div class="caurousel-caption text2"><b>High fibre fruits</b></div>
+                                <img src="images/diabetic/ffibre.jpeg" class="image2" style="width:250px; height: 200px;">
+                        </div>       
+                        <div class="hover">
+                            <div class="caurousel-caption text3"><b>Healthy oil foods</b></div>
+                                <img src="images/diabetic/doughnuts.jpeg" class="image3" style="width:250px; height: 200px;">
+                        </div>       
+                        <div class="hover">
+                            <div class="caurousel-caption text4"><b>Fat free yogurt</b></div>
+                                <img src="images/diabetic/yogurt.jpeg" class="image4" style="width:250px; height:200px ">
                         </div>       
                     </div>
-                    <div class="col-md-4">
-                        <div class="hover">
-                            <div class="caurousel-caption text2"><b>Energy drinks</b></div>
-                                <img src="images/nrgd.jpg" class="image2" style="width:285px;">
-                        </div>       
-                    </div>
-                    <div class="col-md-4">
-                        <div class="hover">
-                            <div class="caurousel-caption text3"><b>Unhealthy breakfast foods</b></div>
-                                <img src="images/doughnuts.jpeg" class="image3" style="width:250px;">
-                        </div>       
-                    </div>
-                </div>
-                <p>For a healthy and ntutritious diet, you should consider having the following included in each meal;</p>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="hover">
-                            <div class="caurousel-caption text4"><b>Dark green leafy veggies</b></div>
-                                <img src="images/dgl.jpg" class="image4" style="width:250px;height:200px ">
-                        </div>       
-                    </div>
-                    <div class="col-md-3">
-                        <div class="hover">
-                            <div class="caurousel-caption text5"><b>Fruits wih high fibre</b></div>
-                                <img src="images/ffibre.jpeg" class="image5" style="width:250px; height:200px;">
-                        </div>       
-                    </div>
-                    <div class="col-md-3">
+                    <div class="column">
                         <div class="hover">
                             <div class="caurousel-caption text6"><b>Healthy oil foods</b></div>
-                                <img src="images/oils2.jpeg" class="image6" style="width:250px; height: 200px;">
+                                <img src="images/diabetic/oils2.jpeg" class="image6" style="width:250px; height: 200px;">
                         </div>       
-                    </div>
-                    <div class="col-md-3">
                         <div class="hover">
-                            <div class="caurousel-caption text7"><b>Fat free yogurt</b></div>
-                                <img src="images/yogurt.jpeg" class="image6" style="width:250px; height: 200px;">
+                            <div class="caurousel-caption text7"><b>Sweet potatoes</b></div>
+                                <img src="images/diabetic/spotatoes.jpeg" class="image7" style="width:250px; height: 200px;">
                         </div>       
+                        <div class="hover">
+                            <div class="caurousel-caption text8"><b>Nuts</b></div>
+                                <img src="images/diabetic/nuts.jpeg" class="image8" style="width:250px; height: 200px;">
+                        </div>       
+                        <div class="hover">
+                            <div class="caurousel-caption text9"><b>Fish</b></div>
+                                <img src="images/diabetic/fish.jpeg" class="image9" style="width:250px; height: 200px;">
+                        </div>      
+                    </div> 
+                    <div class="column">
+                        <div class="hover">
+                            <div class="caurousel-caption text10"><b>Squash</b></div>
+                                <img src="images/diabetic/squash.jpeg" class="image10" style="width:250px; height: 200px;">
+                        </div>  
+                        <div class="hover">
+                            <div class="caurousel-caption text11"><b>Chicken</b></div>
+                                <img src="images/diabetic/chicken.jpeg" class="image11" style="width:250px; height: 200px;">
+                        </div>  
+                        <div class="hover">
+                            <div class="caurousel-caption text12"><b>Unsweetened tea</b></div>
+                                <img src="images/diabetic/utea.jpeg" class="image12" style="width:250px; height: 200px;">
+                        </div>   
+                        <div class="hover">
+                            <div class="caurousel-caption text13"><b>Whole grain</b></div>
+                                <img src="images/diabetic/wholegrain.jpeg" class="image13" style="width:250px; height: 200px;">
+                        </div> 
+                        
                     </div>
                 </div>
-            </div>
-            <div id="type2">
-                <h2>Diabetes type 2</h2>
-                <p>Type 2 diabetes is a lifelong disease that keeps your body from using insulin the way it should.</p>
-                <p>People with type 2 diabetes are said to have insulin resistance.</p>
-                <p>The following are the top 3 foods which should be avoided by people with this condition;</p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="hover">
-                            <div class="caurousel-caption text8"><b>High cholestrol foods</b></div>
-                                <img src="images/.jpg" class="image8" style="width:250px;height:200px ">
-                        </div>       
+                        <h2>Foods to avoid;</h2><br>
+                    <div class="row">
+                        <div class="column">
+                            <div class="hover">
+                                <div class="caurousel-caption text14"><b>High cholestrol foods</b></div>
+                                    <img src="images/diabetic/cholestrol.jpeg" class="image14" style="width:250px;height:200px ">
+                            </div>       
+                            <div class="hover">
+                                <div class="caurousel-caption text15"><b>High transfat foods</b></div>
+                                    <img src="images/diabetic/transfats.jpeg" class="image15" style="width:250px; height:200px;">
+                            </div>       
+                        
+                        </div>
+                        <div class="column">
+                            <div class="hover">
+                                <div class="caurousel-caption text16"><b>Sodium</b></div>
+                                    <img src="images/diabetic/salt.jpeg" class="image16" style="width:250px; height: 200px;">
+                            </div>       
+                            <div class="hover">
+                                <div class="caurousel-caption text17"><b>Sweet drinks</b></div>
+                                    <img src="images/diabetic/added.jpeg" class="image17" style="width:250px;height:200px ">
+                            </div>   
+                        </div>    
+                        <div class="column">
+                            <div class="hover">
+                                <div class="caurousel-caption text18"><b>Candy</b></div>
+                                    <img src="images/diabetic/candy.jpeg" class="image18" style="width:250px;height:200px ">
+                            </div>       
+                            <div class="hover">
+                                <div class="caurousel-caption text19"><b>Unhealthy breakfast foods</b></div>
+                                    <img src="images/diabetic/doughnuts.jpeg" class="image19" style="width:250px;height:200px ">
+                            </div>       
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="hover">
-                            <div class="caurousel-caption text9"><b>High transfat foods</b></div>
-                                <img src="images/transfats.jpeg" class="image9" style="width:250px; height:200px;">
-                        </div>       
-                    </div>
-                    <div class="col-md-4">
-                        <div class="hover">
-                            <div class="caurousel-caption text10"><b>Foods with added sugar</b></div>
-                                <img src="images/added.jpeg" class="image10" style="width:250px; height: 200px;">
-                        </div>       
-                    </div>
-                    
                 </div>
-            </div>
-    </div>
+                    <div id="diet">
+                        <h2>Diet tips</h2>
+                        <ul>
+                            <li>Keep track of the amount of carbs you eat and drink in a day as the can affect your blood sugar level.</li>
+                            <li>Get involved in doing physical activities to improve blood sugar levels and lower blood pressure.</li>
+                            <li>Drink water before, after and during exercises to stay well hydrated.</li>
+                            <li>Eat regular meals -about 6 per day.</li>
+                        </ul>
+                        <p>Do you want a planned diet table mailed to you on a aily basis?</p>
+                        <p>If yes, fill in the form below to get a diet paln for all three meals in a day.</p>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <label for="fname">Name</label><br>
+                                <input type="text" id="name" name="name"><br>
+                            </div>
+                            <div class="col-md-8">
+                                <label for="lname">Your email account:</label><br>
+                                <input type="text" id="email" name="email">
+                            </div>
+                            <input type="submit" value="Submit">
+                        </div>
+                      </form>
+                    </div>  
+        </div>
+                
 </body>
 </html>
