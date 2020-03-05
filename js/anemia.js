@@ -1,9 +1,4 @@
-function timetable ( day , date ,food) {
-    this.day = day;
-    this.date = date;
-    this.food = food;
-}
-
+var Day = new Date();
 var anemicDiet = [
     {
         "Day":"Monday",
@@ -28,53 +23,58 @@ var anemicDiet = [
     },
     {
         "Day":"Thursday",
-        "BreakFast":["Copper water","Apple"],
-        "Lunch":[""],
-        "Snacks":[],
-        "Dinner":[]
+        "BreakFast":["Copper water","Fruit salad"],
+        "Lunch":["pumpkin soup" ,"fried liver" ,"swiss chard"],
+        "Snacks":["Peanut Butter Cup Chia Pudding"],
+        "Dinner":[" Grilled Lean Red Meat","Quinoa","fried potatoes"]
     },
     {
         "Day":"Friday",
-        "BreakFast":[],
+        "BreakFast":["Organic eggs","Beetroot juice"],
         "Lunch":["Kidney soup" , "Dandellion greens" ,"Iron- fortified rice"],
         "Snack":["pine nuts"],
-        "Dinner":["Fried potatoes", "roast m"]
+        "Dinner":["Fried potatoes", "roast meat", "Fried dandelion greens"]
     },
     {
         "Day":"Saturday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Snack":[],
-        "Dinner":[]
+        "BreakFast":["Roasted Root Veggie Breakfast Tacos with black beans"],
+        "Lunch":["tuna" ,"kale","stuffed sweet potatoes"],
+        "Snack":["dark chocolate"],
+        "Dinner":["steak" , "fortified ugali","fried spinach"]
     },
     {
         "Day":"Sunday",
-        "BreakFast":[],
-        "Lunch":[],
-        "Snack":[],
-        "Dinner":[]
+        "BreakFast":["Stir Fried Asparagus With Bell Peppers and Cashew Nuts"],
+        "Lunch":["turnip greens","Iron-fortified-pasta"," Grilled boneless chiken"],
+        "Snack":["Peanut Butter Cup Chia Pudding"],
+        "Dinner":["fat-steamed sukumawiki" ,"fortified chapati" ,"kidney beans soup",]
     },
 ]
-
-
+function showMeals(){
+    var  DayOfWeeks = anemicDiet[Day.getDay()];
+    //document.getElementById("meals_show").innerHTML = normalDiet[Day.getDay()];
+    const entries = Object.entries(DayOfWeeks)
+    console.log(entries)
+    for([fruit, count] of entries) {
+        var node = document.createElement("LI")
+        var tnode = document.createTextNode(fruit + ":" + count + ".")
+        node.appendChild(tnode)
+        console.log(`${fruit}: ${count}.`)
+        document.getElementById("meals_show").append( node)
+        anemicDiet=0;
+    }
+}
 $(document).ready(function(){
-   $("#see").click(function(event){
-    event.preventDefault();
-
-    $("form").submit(function(){
-        var name = document.getElementById("name").value
-        var email = document.getElementById ("email").value
-         if (name === "" || email === ""){
-             alert ("Kindly fill in your details")
-         } else 
-          {
-            alert("Thank you very much "+ name  +"  your message has been sent.")
-         }
-         $("form").trigger('reset')
+    
+    $("#send").click(function(){
+        var name = document.getElementById("name").val();
+        var email = document.getElementById ("email").val();
+        
+        
+         $("form").trigger('reset');
     })
-   })
 
-   $(".note").click(function(){
-    $(".what_to_note").toggle();
-   });
+    $(".note").click(function(){
+        $(".what_to_note").toggle();
+       });
 })
