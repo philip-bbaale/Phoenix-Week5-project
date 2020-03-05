@@ -25,7 +25,6 @@ body{
 }
 .intro{
     font-family: 'Cinzel', serif;
-    text-size-adjust: 200px;
     text-align: center;
     background-image: url(../images/diabetic/lastbg.jpg);
     background-repeat: no-repeat;
@@ -100,4 +99,7 @@ p{
 li{
     color: white;
     font-family: 'Kalam', cursive;
+}
+#header{
+    font-size: xx-large;
 }
