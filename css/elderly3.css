@@ -1,3 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.Bg1{
+    background-image: url(/images/elderly/back6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
 #start {
     margin: 0;
     padding: 0;
@@ -12,23 +25,122 @@
     text-shadow: 0 2px 0 rgba(0,0,0,.5);
 }
 #intro span:before {
-    content: 'LIVE HEALTHY';
-    animation: animate infinite 15s;
+    content: 'HEALTHY';
+    animation: animate infinite 5s;
 }
 @keyframes animate{
    0%{
-       content: 'LIVE HEALTHY';
+       content: 'HEALTHY';
    } 
    25%{
-      content: 'LIVE WEALTHY'; 
+      content: 'WEALTHY'; 
 } 
 50%{
-    content: 'LIVE STRONGER';   
+    content: 'STRONGER';   
 } 
 75%{
-     content: 'LIVE LONGER';  
+     content: 'LONGER';  
 }
 100%{
-    content: 'LIVE HAPPILY';  
+    content: 'HAPPILY';  
 }  
 }
+.intro2{
+   position: absolute;
+   top: 35%; 
+   left: 90%;
+   transform: translate(-50%,-50%);
+   width: 300px;
+   height: 240px;
+   /*overflow: hidden;*/
+   border: 1px solid rgba(255,255,255,.2);
+}
+img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: all .5s ease-in-out;
+    height: 100%;
+}
+.para1{
+    margin: 0;
+    position: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: all .5s ease-in-out;
+    /*background: #ff5722;*/
+    font-family: arial;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 20px;
+    transform: scale(0);
+    transition-delay: .2s;
+    opacity: 0;
+}
+.intro2:hover .para1{
+    opacity: 1;
+    transform: scale(1);
+}
+.intro2:hover img{
+    opacity: 0;
+    transform: scale(0) rotate(180deg);
+}
+#vid{
+    position: relative;
+    left: 10%;
+    height: 500%;
+
+}
+.meal_timetable{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+#first1{
+    font-family: "montserrat", sans-serif;
+    font-size: 70px;
+    top: 0;
+    color: blue;
+    text-transform: uppercase;
+}
+#parag2{
+    text-align: center;
+}
+#second{
+    font-family: "montserrat" sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+pre{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#balanced{
+    position: relative;
+    width: 50%;
+    left: 20%;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background: green;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
