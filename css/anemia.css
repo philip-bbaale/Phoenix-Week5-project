@@ -25,3 +25,18 @@
 .send {
     padding: 10px;
 }
+.what_to_note{
+    display: none;
+}
+.note {
+    cursor: pointer;
+    color: red;
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+}
+.note:hover{
+    text-decoration: underline;
+}
+.send_btn{
+    padding: 20px;
+}
