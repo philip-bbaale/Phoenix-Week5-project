@@ -80,36 +80,11 @@
     color: white;
     text-shadow: 5px 5px black;
 }
-.diet_background{
-    background-image: url(../images/diet/jumbobg.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-}
+
 .disease_cards{
     justify-content: center;
 }
 .card{
     align-items: center;
     margin: 20px;
-}
-.diet_defination1{
-    text-align: justify;
-    padding: 50px;
-}
-.diet_defination2{
-    text-align: justify;
-    padding: 50px;
-}
-.food_group{
-    padding: 10px;
-    justify-content: center;
-}
-.food_group_img1,.food_group_img2,.food_group_img3,.food_group_img4,.food_group_img5{
-    height: 100px;
-    width: 150px;
-}
-.food_group_list1,.food_group_list2,.food_group_list3,.food_group_list4,.food_group_list5{
-    display: none;
 }
