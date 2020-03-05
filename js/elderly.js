@@ -1,33 +1,45 @@
-$(document).ready(function(){
-
-    $(".food_group1").click(function(){
-        $(".food_group_img1").toggle();
-        $(".food_group_list1").toggle();
-    })
-    $(".food_group2").click(function(){
-        $(".food_group_img2").toggle();
-        $(".food_group_list2").toggle();
-    })
-    $(".food_group3").click(function(){
-        $(".food_group_img3").toggle();
-        $(".food_group_list3").toggle();
-    })
-    $(".food_group4").click(function(){
-        $(".food_group_img4").toggle();
-        $(".food_group_list4").toggle();
-    })
-    $(".food_group5").click(function(){
-        $(".food_group_img5").toggle();
-        $(".food_group_list5").toggle();
-    })
-    $("form").submit(function(){
-        var name = $("#name").val();
-        var email = $("#email").val();
-        alert('Thank you for reaching out. '+name);
-        $("form").trigger('reset');
+$(document).ready(function() {
+    $("#vitamin").click(function() {
+        $("#vitamins").toggle();
+    }); 
+    $("#protein").click(function() {
+        $("#proteins").toggle();
     });
-
 });
+
+function setNewImage2() {
+
+   document.getElementById("vitamin").src = "/images/elderly/vitamins2.jpeg";
+
+
+}
+function setOldImage2() {
+
+   document.getElementById("vitamin").src = "/images/elderly/vitamins.jpeg";
+
+}
+
+function setNewImage1() {
+
+    document.getElementById("protein").src = "/images/elderly/protein.jpeg";
+
+}
+function setOldImage1() {
+
+    document.getElementById("protein").src = "/images/elderly/protein3.jpeg";
+
+}
+
+function setNewImage() {
+
+    document.getElementById("carbo").src = "/images/elderly/carbo.jpeg";
+
+}
+function setOldImage() {
+
+    document.getElementById("carbo").src = "/images/elderly/carbo2.jpeg";
+
+}
 
 var Day = new Date();
 var normalDiet = [
