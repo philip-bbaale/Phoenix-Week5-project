@@ -3,6 +3,9 @@ body{
     padding: 0;
     background: #262626;
 }
+h5{
+    color: white;
+}
 .elderly_Heading {
     margin-top: 4%;
     padding: 0%;
@@ -94,3 +97,71 @@ p{
 .button_meals{
     color: white;
 }
+
+
+  .marquee{
+      color: white;
+  }
+  .loginbox {
+    position: absolute;
+    top: 130%;
+    bottom: 20px;
+    left: 60%;
+    padding: 40px 40px;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    border: collapse;
+    background: rgb(0,0,0,.5);
+    text-align: center;
+  }
+  .loginbox {
+    opacity: 60%;
+    background-color: ;
+  }
+  h2 {
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .loginbox p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+  }
+  .loginbox input[type="text"] {
+      border: none;
+      font-size: 16px;
+       height: 30px;
+    
+  }
+  .loginbox input[type="password"]{
+  border: none;
+   height: 30px;
+   font-size: 16px;
+    
+  }
+  .loginbox input[type="submit"]{
+    border: none;
+    font-size: 16px;
+    height: 40px;
+  
+  }
+  .loginbox input[type="submit"]:hover{
+    background: green;
+  }
+  .loginbox input[placeholder="Name here"]{
+    text-align: center;
+  }
+  .loginbox input[placeholder="example@email.com"]{
+    text-align: center;
+  }
+  .loginbox input[placeholder="Enter password"]{
+    text-align: center;
+  }
