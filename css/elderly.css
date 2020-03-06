@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+h5{
+    color: white;
+}
+.elderly_Heading {
+    margin-top: 4%;
+    padding: 0%;
+}
+
+ul{
+    position: absolute;
+    top:30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: o;
+    display: flex;
+}
+ul li{
+     list-style: none;
+     color: #484848;
+     font-family: arial;
+     font-size: 55px;
+     animation: animate 1.4s linear infinite;
+}
+@keyframes animate{
+    0%{
+color: #484848;
+text-shadow: none;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+            }
+            100%{
+                color: #fff900;
+                text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+                    }
+}
+ul li:nth-child(1){
+    animation-delay: .4s;
+}
+ul li:nth-child(2){
+    animation-delay: .6s;
+}
+ul li:nth-child(3){
+    animation-delay: .8s;
+}
+ul li:nth-child(4){
+    animation-delay: 1s;
+}
+ul li:nth-child(5){
+    animation-delay: 1.2s;
+}
+ul li:nth-child(6){
+    animation-delay: 1.4s;
+}
+ul li:nth-child(7){
+    animation-delay: 1.6s;
+}
+ul li:nth-child(8){
+    animation-delay: 1.8s;
+}
+ul li:nth-child(9){
+    animation-delay: 2s;
+}
+ul li:nth-child(10){
+    animation-delay: 2.2s;
+}
+ul li:nth-child(11){
+    animation-delay: 2.4s;
+}
+ul li:nth-child(12){
+    animation-delay: 2.6s;
+}
+.inner {
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.elderly_head_txt {
+    font-weight: bolder;
+    text-align: center;
+    color: blue;
+}
+p{
+    color: white;
+}
+.button_meals{
+    color: white;
+}
+
+
+  .marquee{
+      color: white;
+  }
+  .loginbox {
+    position: absolute;
+    top: 130%;
+    bottom: 20px;
+    left: 60%;
+    padding: 40px 40px;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    border: collapse;
+    background: rgb(0,0,0,.5);
+    text-align: center;
+  }
+  .loginbox {
+    opacity: 60%;
+  }
+  h2 {
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .loginbox p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+  }
+  .loginbox input[type="text"] {
+      border: none;
+      font-size: 16px;
+       height: 30px;
+    
+  }
+  .loginbox input[type="password"]{
+  border: none;
+   height: 30px;
+   font-size: 16px;
+    
+  }
+  .loginbox input[type="submit"]{
+    border: none;
+    font-size: 16px;
+    height: 40px;
+  
+  }
+  .loginbox input[type="submit"]:hover{
+    background: green;
+  }
+  .loginbox input[placeholder="Name here"]{
+    text-align: center;
+  }
+  .loginbox input[placeholder="example@email.com"]{
+    text-align: center;
+  }
+  .loginbox input[placeholder="Enter password"]{
+    text-align: center;
+  }

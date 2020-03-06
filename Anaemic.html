@@ -105,7 +105,8 @@
        <h8 class="note"><b>NOTE!!!!!!!!</b></h8>
        <p class="what_to_note">Don’t eat iron-rich foods with foods or beverages that block iron absorption. These include coffee or tea, eggs, foods high in oxalates, and foods high in calcium. foods rich in gluten, such as pasta and other products made with wheat, barley, rye, or oats</p>
        <div id="timetable">
-        <button type="button" id="see"> See your meal</button>
+        <button type="button" onclick="showMeals()"> See your meal</button>
+        <h3 id="meals_show"></h3>
     </div>
                <div class= " email text-center  container-fluid" id>
                     
@@ -114,7 +115,7 @@
                             <div class="row ">
                                 <div class="col-md-6">
                             
-                                    <input class="form-control typo" type="text" placeholder="type in your name" name="FNAME" id="name" required>
+                                    <input class="form-control typo" type="text" placeholder="type in your name" name="NAME" id="name" required>
                                   </div>
                                   <div class="col-md-6">
                                     <input class="form-control typo" type="text" placeholder="Type in your email" name="EMAIL" id="email" required>
@@ -125,7 +126,7 @@
                                     <div class="response" id="mce-success-response" style="display:none"></div>
                                   </div>
                                  <div class="col-md-12  send_btn">
-                                  <button type="submit" class="btn btn-dark ">Send.</button>
+                                  <button type="submit" id="send" class="btn btn-dark ">Send.</button>
 
                                  </div>
                             </div>
