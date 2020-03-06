@@ -97,3 +97,16 @@
     padding: 5px;
     border-radius: 10px;
 }
+
+/* pregnancy landing page */
+.preg1{
+    background-image: url(../images/pregnancy/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-bottom: 4rem;
+}
+.intro{
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
