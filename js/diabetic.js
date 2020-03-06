@@ -58,7 +58,7 @@ $(document).ready(function(){
     }); 
 });
 var Day = new Date();
-var normalDiet = [
+var diabeticDiet = [
     {
         "DayOfWeek":"Sunday",
         "BreakFast":["Almonds","Fruits"],
@@ -111,7 +111,7 @@ var normalDiet = [
     
 ]
 function showMeals(){
-    var  DayOfWeeks = normalDiet[Day.getDay()];
+    var  DayOfWeeks = diabeticDiet[Day.getDay()];
     //document.getElementById("meals_show").innerHTML = normalDiet[Day.getDay()];
     const entries = Object.entries(DayOfWeeks)
     console.log(entries)
@@ -120,6 +120,7 @@ function showMeals(){
         var tnode = document.createTextNode(fruit + ": " + count+".")
         node.appendChild(tnode)
         document.getElementById("meals_show").append (node)
+        diabeticDiet=0;
     }
     
 }
